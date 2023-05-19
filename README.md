@@ -1,16 +1,476 @@
-### Hi there 👋
+<!DOCTYPE html>
 
-<!--
-**yanigonina/yanigonina** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ресторан Горизонт Главная</title>
+    <meta name="description" content="Free Bootstrap Theme by ProBootstrap.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link rel="shortcut icon" href="img/Иконка.ico">
 
-Here are some ideas to get you started:
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  </head>
+  <body>
+    <a class="fixedButton" href="vhod.html" title = "Вход">
+      <div class="roundedFixedBtn2"><img src="img/Вход.svg"></img></div>
+    </a>
+    <a class="fixedButton2" href="1menu.html" title = "Меню">
+      <div class="roundedFixedBtn2"><img src="img/меню.svg"></img></div>
+    </a>
+    <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="1index.html" title="Ресторан Горизонт Главная">Ресторан Горизонт Главная</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="welcome">Главная</a></li>
+            <li><a href="#" data-nav-section="specialties">О нас</a></li>
+            <li><a href="#" data-nav-section="menu">Меню</a></li>
+            <li><a href="#" data-nav-section="events">Услуги</a></li>
+            <li><a href="#" data-nav-section="documents">Нормативные документы</a></li>
+            <li><a href="#" data-nav-section="contact">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flexslider" data-section="welcome">
+      <ul class="slides">
+        <li style="background-image: url(img/hero_bg_1.jpg)" class="overlay" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Welcome the</h1>
+                  <h3 class="secondary-heading">Горизонт</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(img/hero_bg_2.jpg)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Dine</h1>
+                  <h3 class="secondary-heading">Место для всей семьи</h3>
+                  <p class="sub-heading">Современный уютный ресторан в экзотическом стиле</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </li>
+        <li style="background-image: url(img/hero_bg_3.jpg)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Enjoy</h1>
+                  <h3 class="secondary-heading">Экзотика</h3>
+                  <p class="sub-heading">Интересные экзотические блюда</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 text-center probootstrap-animate">
+            <div class="probootstrap-heading dark">
+              <h1 class="primary-heading">Discover</h1>
+              <h3 class="secondary-heading">Наша история</h3>
+              <span class="seperator">* * *</span>
+            </div>
+            <p>"Горизонт" - ресоран для отдыха с друзями и семьей. Открыв двери в 2022 году, ресторан уже успел покорить публику по-экзотическому вкусной кухне и уютной атмосферой</p>
+            <p><a href="#" class="probootstrap-custom-link">Наверх</a></p>
+          </div>
+          <div class="col-md-6 col-md-push-1 probootstrap-animate">
+            <p><img src="img/glavnaya.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_4.jpg);" data-stellar-background-ratio="0.5" data-section="specialties">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Discover</h2>
+              <h3 class="secondary-heading">Немного о нас</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="probootstrap-cell-retro">
+            <div class="half">
+
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_1.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Удобная парковка</h3>
+                  <p>Перед рестораном расположена большая площадка, где не составит труда найти место и запарковать Ваш или автомобили гостей.</p>
+                  <p class="price">* * *</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_2.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Банкетный зал</h3>
+                  <p>Мы готовы помочь с проведением любого Вашего празднества: выпускного, свадьбы или юбилея. Основной зал вмещает до 90 гостей.</p>
+                  <p class="price">* * *</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_3.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Доставка на дом</h3>
+                  <p>Желаете посетить любимый ресторан, но нет времени? Вы можете заказать доставку любимых блюд домой, в гости или на работу.</p>
+                  <p class="price">* * *</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="half">
+
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_4.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Терраса</h3>
+                  <p>Проводите время на уютной летней террасе, где отлично сочетаются удовольствия от нашей экзотической кухни, простора и свежего морского воздуха.</p>
+                  <p class="price">* * *</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_5.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Детская комната</h3>
+                  <p>Оборудованная детская комната не даст Вашим детям скучать. Много игрушек, мультфильмы, развлекательные площадки и няня.</p>
+                  <p class="price">* * *</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_6.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Бесплатный Wi-Fi</h3>
+                  <p>Конечно мы не могли об этом не упомянуть. Мы предоставляем нашим посетителям скоростной и бесплатный выход в интернет.</p>
+                  <p class="price">* * *</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_6.jpg);"  data-stellar-background-ratio="0.5"  data-section="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Discover</h2>
+              <h3 class="secondary-heading">Меню</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="menus">
+              <li>
+                <figure class="image"><img src="img/katalog/hero_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Салаты</h3>
+                  <p>Цезарь / Филадельфия / Брезола</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="Salad">подробнее</a></span>
+                </div>
+              </li>
+              <li>
+                <figure class="image"><img src="img/katalog/hero_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Супы</h3>
+                  <p>Том-ям тхале / Грибной суп / Уха</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="Soup">подробнее</a></span>
+                </div>
+              </li>
+              <li>
+                <figure class="image"><img src="img/katalog/hero_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Пицца</h3>
+                  <p>Вилладжио / Пепперони / Black star</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="Pizza">подробнее</a></span>
+                </div>
+              </li>
+              <li>
+                <figure class="image"><img src="img/katalog/hero_4.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Молочные коктейли</h3>
+                  <p>Шокалвдный / Ванильный / Клубничный</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="Milkshakes">подробнее</a></span>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="menus">
+              <li>
+                <figure class="image"><img src="img/katalog/hero_8.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Чайные напитки</h3>
+                  <p>Облепиховый / Ежевичный / Гранатовый</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="Tea">подробнее</a></span>
+                </div>
+              </li>
+              <li>
+                <figure class="image"><img src="img/katalog/hero_7.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Кофейные напитки</h3>
+                  <p>Латте / Кофе / Мокко</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="Сoffee drinks">подробнее</a></span>
+                </div>
+              </li>
+              <li>
+                <figure class="image"><img src="img/katalog/hero_5.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Закуски</h3>
+                  <p>Тарталетки / Мясные / Сырные</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="zakyski">подробнее</a></span>
+                </div>
+              </li>
+              <li>
+                <figure class="image"><img src="img/katalog/hero_6.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+                <div class="text">
+                  <h3>Десерты</h3>
+                  <p>Пирожные / Морожное / Сладости</p>
+                  <span class="price"><a href="1menu.html" data-nav-section="deserts">подробнее</a></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_4.jpg);"  data-stellar-background-ratio="0.5" data-section="events">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Upcoming</h2>
+              <h3 class="secondary-heading">Наши услуги</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_4.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+              <div class="text">
+                <span class="date">Июнь 29, 2022</span>
+                <h3><a href="#">Банкеты в ресторане "Горизонт"</a></h3>
+                <p>Просторная веранда спокойно вместит 50 ваших гостей! Много света, живых цветов и больших окон, из которых открывается замечательный вид! Для Вас здесь готовы устроить настоящий пир.</p>
+                <p><a href="#" class="probootstrap-custom-link">Наверх</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+              <div class="text">
+                <span class="date">Сентябрь 17, 2022</span>
+                <h3><a href="#">Доставка на дом</a></h3>
+                <p>Желаете посетить любимый ресторан, но нет времени? Хотите вкусно пообедать? Мы открыли услугу доставки на дом! Вы теперь можете заказать доставку любимых блюд домой, в гости или на работу.</p>
+                <p><a href="#" class="probootstrap-custom-link">Наверх</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/hero_bg_6.jpg" alt="Free Bootstrap Template by ProBootstrap.com"></figure>
+              <div class="text">
+                <span class="date">Октябрь 1, 2022</span>
+                <h3><a href="#">Консультанция</a></h3>
+                <p>Консультации специалистов по изготовлению, оформлению кулинарной продукции и кондитерских изделий и сервировке стола; - организация обучения кулинарному мастерству.</p>
+                <p><a href="#" class="probootstrap-custom-link">Наверх</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_16.jpg);"  data-stellar-background-ratio="0.5" data-section="documents">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Regulatory documents</h2>
+              <h3 class="secondary-heading">Нормативные документы</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 probootstrap-animate">
+						<div class="probootstrap-block-image">
+							
+							<div class="text">
+								<h3><a href="#">Санитарные нормы</a></h3>
+								<p>- СанПиН 2.1.4.1074-01 «Питьевая вода. Гигиенические требования к качеству воды централизованных систем 
+								питьевого водоснабжения. Контроль качества. Гигиенические требования к обеспечению безопасности систем 
+								горячего водоснабжения»;</p>
+								<p>- СанПиН 2.1.2.2645-10 «Санитарно-эпидемиологические требования к условиям проживания в жилых зданиях 
+								и помещениях» (в случае размещения предприятия в нежи-лых встроенных и встроенно-пристроенных помещениях 
+								жилого дома и /или на территории жилой застройки);</p>
+								<p>- СанПиН 2.2.4.548-96 «Гигиенические требования к микроклимату производственных помещений».</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 probootstrap-animate">
+						<div class="probootstrap-block-image">
+							
+							<div class="text">
+                
+								<h3><a href="#">Приказы Министерства Здравоохранения РФ </a></h3>
+								<p>- Приказ Министерства Здравоохранения РФ от 21.03.2014г. №125н «Об утверждении национального 
+								календаря профилактических прививок и календаря профилакти-ческих прививок по эпидемическим показаниям»;</p>
+								<p>- Приказ МЗ РФ от 29.06.2000 г. №229 "О профессиональной гигиенической подготовке и аттестации должностных 
+								лиц и работников организаций";</p>
+								<p>- Приказ Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека от 
+								20.05.2005 №402 «О личной медицинской книжке и санитарном паспорте».</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 probootstrap-animate">
+						<div class="probootstrap-block-image">
+							
+							<div class="text">
+                
+								<h3><a href="#">Стандарты</a></h3>
+								<p>- ГОСТ 30524-2013 «Международный стандарт. Услуги общественного питания. Требования к персоналу»;</p>
+								<p>- ГОСТ 31984-2012 «Международный стандарт. Услуги общественного питания. Общие требования»;</p>
+								<p>- ГОСТ 31985-2013 «Международный стандарт. Услуги общественного питания. Термины и определения»;</p>
+								<p>- ГОСТ 30389-2013 «Международный стандарт. Услуги общественного питания. Предприятия общественного питания. 
+								Классификация и общие требования».</p>								
+							</div>
+						</div>
+					</div>
+				</div>
+				<center><p><a href="#" class="probootstrap-custom-link">Наверх</a></p></center>
+			</div>
+		</section>
+
+    <section class="probootstrap-section probootstrap-bg-white" data-section="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 text-center probootstrap-animate">
+            <div class="probootstrap-heading dark">
+              <h1 class="primary-heading">Contact</h1>
+              <h3 class="secondary-heading">Ответим на вопрос</h3>
+            </div>
+            <p>Если у вас возникли вопросы, Вы можете написать нам и в ближайшее время постараемся ответить подробно.</p>
+            <p><a href="#" class="probootstrap-custom-link">Наверх</a></p>
+          </div>
+          <div class="col-md-6 col-md-push-1 probootstrap-animate">
+            <form action= "mail.php" method="POST" class="probootstrap-form">
+              <div class="form-group">
+                <div class="form-group mt-3">
+                  <label class="form-control-placeholder" for="username">Ваше Имя</label>
+                  <input type="text" class="form-control" id="" name="user_name" required>
+                </div>
+                  <div class="form-group">
+                    <label class="form-control-placeholder" for="email">Ваша Почта</label>
+                    <input type="text" class="form-control" id="" name="user_email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="c_message">Ваше сообщение</label>
+                    <div class="form-field">
+                      <textarea name="c_message" id="" cols="30" rows="10" class="form-control" required></textarea>
+                    </div>
+                  </div>
+              </div>
+                <div class="form-group">
+                <button type="submit" class="form-control btn btn-primary rounded submit px-3">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 probootstrap-animate">
+            <div class="probootstrap-footer-widget">
+              <h3>Адрес</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <p> 198 West 21th Street, Suite 721 <br> Россия</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 probootstrap-animate">
+            <div class="probootstrap-footer-widget">
+              <h3>Расписание</h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <p>Понедельник - Пятница <br> 9:00am - 11:00pm</p>
+                </div>
+                <div class="col-md-4">
+                  <p>Суббота - Воскресенье <br> 10:30am - 10:00pm</p>
+                </div>
+                <div class="col-md-4">
+                  <p>Available for Catering <br> Email or Call Us</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+
+  </body>
+</html>
